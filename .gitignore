@@ -1,0 +1,33 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+
+# Generated output
+/build/
+/dist/
+/releases/
+
+# Fabrication exports
+*.gbl
+*.gbs
+*.gbo
+*.gtl
+*.gts
+*.gto
+*.gm1
+*.drl
+*.gbrjob
+*_JLC_Gerber.zip
+
+# KiCad per-user state, lock files and automatic backups
+*.kicad_prl
+*.lck
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_pro-bak
+
+# Operating-system metadata
+.DS_Store

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "limits": {
+    "copper_gap_mm": 0.1,
+    "copper_edge_mm": 0.2,
+    "mask_gap_mm": 0.13,
+    "silk_to_mask_mm": 0.15,
+    "silk_stroke_mm": 0.1,
+    "screening_scale_px_per_mm": 160,
+    "screening_width_mm": 0.09,
+    "screening_span_mm": 0.16,
+    "hole_to_copper_mm": 0.3,
+    "hole_edge_mm": 0.5,
+    "hole_to_silk_mm": 0.15,
+    "hole_to_hole_mm": 0.5
+  }
+}

@@ -1,0 +1,29 @@
+[project]
+name = "raspcb"
+version = "0.2.0"
+description = "Vector art PCB layout, KiCad and Gerber toolchain"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=1.26",
+    "pillow>=10.2",
+    "shapely>=2.0",
+    "scipy>=1.11",
+    "fonttools>=4.0",
+    "gerbonara>=1.6.3",
+]
+
+[project.scripts]
+raspcb = "raspcb.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/raspcb"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "B"]
