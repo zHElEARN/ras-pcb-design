@@ -1,8 +1,10 @@
-# RAS 艺术 PCB
+# ras-pcb-design
 
 ![预览](docs/images/board-gerber-preview.png)
 
 上方为正面，下方为背面；灰色表示阻焊下铜，金色表示开窗铜，白色表示丝印。
+
+[下载最新 Gerber 制板包（GitHub Release）](https://github.com/zHElEARN/ras-pcb-design/releases/latest)
 
 ## 源文件
 
